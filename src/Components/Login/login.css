@@ -1,0 +1,57 @@
+body{
+    background-image: url("fondo_login.jpg");
+    background-size: cover;
+
+    
+}
+
+.rectanguloLogin{
+    background-color: rgb(240, 248, 255,0.7);
+
+    height: 600px;
+    width: 800px;
+
+    margin: auto;
+    margin-top: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    
+}
+
+.formularioLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.formularioLogin label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formularioLogin input{
+    margin-bottom: 20px;
+
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    
+}
+
+.botonesLogin > button{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
